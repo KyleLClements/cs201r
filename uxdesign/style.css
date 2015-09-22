@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    background-image: url("http://icie.cs.byu.edu/images/background2.jpg");
+} 
+h1{
+    font-weight: normal;
+}
+.pane{
+     max-width: 250px;
+    line-height: 20px;
+    margin: 30px 0px 0px 35px;
+    padding: 20px 20px 20px 30px;
+    border: 1px solid brown;
+    background-color: #F5EBCC;
+}
+.pane{
+    border-radius: 20px 0px 0px 0px;
+}
+#showoff{
+     border-radius: 0px 0px 0px 20px;
+     box-shadow: 10px 10px 5px darkgray;
+}

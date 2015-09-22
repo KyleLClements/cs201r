@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+<script>
+  
+ function clickred(){
+    document.getElementById("text").style.fontFamily= "Times";
+    document.getElementById("text").style.color = "red";
+  }
+  function clickgreen(){
+     document.getElementById("text").style.color = "green";
+  }
+  function clickblue(){
+    document.getElementById("text").style.color = "blue";
+        document.getElementById("text").style.fontFamily= "Arial";
+  }
+  function clickblack(){
+ document.getElementById("text").innerHTML = "Hello there.";
+ document.getElementById("text").style.color = "black";
+
+  }
+
+</script>
+</head>
+
+<body>
+
+  <h2>Testing JavaScript</h2>
+
+<button type="button" id="red"
+onclick="clickred()">
+Red Times</button>  
+
+<button onclick="clickgreen()" type="button" id="green">
+Green
+</button> 
+
+<button type="button" id="blue"
+onclick="clickblue()">
+Blue Arial</button>  
+
+<button type="button" id="black"
+ onclick="clickblack()">
+Black Hello </button>  
+
+<br>
+<br>
+<div id= "text">
+    This is some text to be displayed and changed.
+</div>
+
+
+
+</body>
+
+
+</html>
